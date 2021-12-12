@@ -21,6 +21,7 @@ import Horarios from './Estudiantes/paginas/Horarios';
 import { Materias } from './Admin/paginas/materias/Materias';
 import mat from './Admin/ambientes/mat';
 import verProgamacion from './Estudiantes/paginas/verProgamacion';
+import Asignar from './Admin/paginas/asignar/asignar';
 
 
 
@@ -50,6 +51,7 @@ export const RutasApp = () => {
                 <Route path="/Materias" component={Materias}/>
                 <Route path="/mat" component={mat}/>
                 <Route path="/verProgramacion" component={verProgamacion}/>
+                <Route path="/asignar" component={Asignar}/>
             </Switch>
         </Router>
     )

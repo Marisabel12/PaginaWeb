@@ -5,7 +5,13 @@ const listaDocentes = () => {
     return (
         <div>
             < Administrador /> 
+            <div className='container mt-4'>
+            <h1>buscador</h1>
+            <input type='text' id='formulario' className='form-control my-2' />
+            <button className='btn btn-info mb-2' id='boton'>buscar</button>
+            </div>
         <div className="col">
+            <div></div>
             <h1 className="text-dark text-center">Lista de Docentes</h1>
             <table className="table table-bordered table-hover tableFixHead">
              <thead className="table-primary">

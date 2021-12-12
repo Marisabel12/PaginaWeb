@@ -1,6 +1,5 @@
 import React from "react";
 import { Administrador } from "../../Administrador";
-import { Link } from "react-router-dom"; 
 const regDocente = () => {
     return (
         <div className="table-responsive"  align="center" >          
@@ -28,9 +27,9 @@ const regDocente = () => {
                                 <label for="materia" class="form-label">Designacion Horas por Materia:</label>
                                 <input type="time" class="form-control" id="designacion" placeholder="Ej. Claculo" name="designacion"/>
                             </div>
-                            <Link to="/listaDocentes"  > 
+                    
                             <button className="btn btn-primary">enviar</button>
-                            </Link>
+                        
                         </form>
                     </div>
                 </div>
